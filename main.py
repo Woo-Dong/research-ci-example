@@ -1,5 +1,6 @@
 def hellowword(a):
-    print(f"hello world: {a}")
+    msg = f"hello world: {a}"
+    return msg
 
 
 if __name__ == "__main__":

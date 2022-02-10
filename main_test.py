@@ -8,5 +8,6 @@ class MainTest(unittest.TestCase):
         ret = main.hellowword("Test")
         self.assertEqual(ret, "hello world: Test")
 
+
 if __name__ == "__main__":
-  unittest.main()
+    unittest.main()
